@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.layout.BorderPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" 
+			xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" 
+			fx:controller="application.Controller">
+	<children>
+    	<HBox spacing="20" alignment="CENTER">
+    		<VBox spacing="50" alignment="CENTER">
+    		<DatePicker fx:id="dPicker" prefWidth="100" prefHeight="100"/>
+    		<CheckBox fx:id="cBox1" onAction="#cBox1Clicked"/>
+    		</VBox>
+    		<VBox spacing="50" alignment="CENTER">
+    		<ColorPicker fx:id="cPicker" prefWidth="100" prefHeight="100"/>
+    		<CheckBox fx:id="cBox2" onAction="#cBox2Clicked"/>
+    		</VBox>
+    		<VBox spacing="50" alignment="CENTER">
+    		<ProgressBar fx:id="pBar" prefWidth="100" prefHeight="100"/>
+    		<CheckBox fx:id="cBox3" onAction="#cBox3Clicked"/>
+    		</VBox>
+    	</HBox>
+    </children>
+</StackPane>

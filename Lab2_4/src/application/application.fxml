@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+
+<GridPane maxHeight="320.0" maxWidth="256.0" minHeight="320.0" minWidth="256.0" 
+			xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" 
+			fx:controller="application.Controller">
+			<TextField fx:id="TxtField" prefWidth="256" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="4"/>
+			<Button fx:id="ClearButton" text="C" prefWidth="64" prefHeight="64" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+			<Button fx:id="SlashButton" text="/" prefWidth="64" prefHeight="64" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+			<Button fx:id="StarButton" text="*" prefWidth="64" prefHeight="64" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+			<Button fx:id="MinusButton" text="-" prefWidth="64" prefHeight="64" GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+			<Button fx:id="SevenButton" text="7" prefWidth="64" prefHeight="64" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+			<Button fx:id="EightButton" text="8" prefWidth="64" prefHeight="64" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+			<Button fx:id="NineButton" text="9" prefWidth="64" prefHeight="64" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+			<Button fx:id="PlusButton" text="+" prefWidth="64" prefHeight="128" GridPane.columnIndex="3" GridPane.rowIndex="2" GridPane.rowSpan="2"/>
+			<Button fx:id="FourButton" text="4" prefWidth="64" prefHeight="64" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+			<Button fx:id="FiveButton" text="5" prefWidth="64" prefHeight="64" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+			<Button fx:id="SixButton" text="6" prefWidth="64" prefHeight="64" GridPane.columnIndex="2" GridPane.rowIndex="3"/>
+			<Button fx:id="OneButton" text="1" prefWidth="64" prefHeight="64" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+			<Button fx:id="TwoButton" text="2" prefWidth="64" prefHeight="64" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+			<Button fx:id="ThreeButton" text="3" prefWidth="64" prefHeight="64" GridPane.columnIndex="2" GridPane.rowIndex="4"/>
+			<Button fx:id="EnterButton" text="Enter" prefWidth="64" prefHeight="128" GridPane.columnIndex="3" GridPane.rowIndex="4" GridPane.rowSpan="2"/>
+			<Button fx:id="ZeroButton" text="0" prefWidth="128" prefHeight="64" GridPane.columnIndex="0" GridPane.rowIndex="5" GridPane.columnSpan="2"/>
+			<Button fx:id="DotButton" text="." prefWidth="64" prefHeight="64" GridPane.columnIndex="2" GridPane.rowIndex="5"/>
+</GridPane>

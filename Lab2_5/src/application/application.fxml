@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+
+<TilePane maxHeight="300.0" maxWidth="400.0" minHeight="300.0" minWidth="400.0" 
+			xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" 
+			fx:controller="application.Controller">
+			<VBox>
+			<HBox>
+			<VBox>
+			<RadioButton fx:id="FstOne" text="Bright Red" style="-fx-text-fill: #ff0000"/>
+			<RadioButton fx:id="FstTwo" text="Black" style="-fx-text-fill: #000000"/>
+			<RadioButton fx:id="FstThr" text="Brown" style="-fx-text-fill: #6e4200"/>
+			<RadioButton fx:id="FstFour" text="Deep Blue" style="-fx-text-fill: #1f497d"/>
+			<RadioButton fx:id="FstFive" text="light Blue" style="-fx-text-fill: #4f81bd"/>
+			<RadioButton fx:id="FstSix" text="Pale Red" style="-fx-text-fill: #c05046"/>
+			<RadioButton fx:id="FstSev" text="Pale Green" style="-fx-text-fill: #9abb59"/>
+			<RadioButton fx:id="FstEig" text="Light Purple" style="-fx-text-fill: #8064a2"/>
+			<RadioButton fx:id="FstNine" text="Azure" style="-fx-text-fill: #4babc6"/>
+			<RadioButton fx:id="FstTen" text="Orange" style="-fx-text-fill: #f79646"/>
+			</VBox>
+			<VBox>
+			<RadioButton fx:id="SecOne" text="Bright Red" style="-fx-text-fill: #ff0000"/>
+			<RadioButton fx:id="SecTwo" text="Black" style="-fx-text-fill: #000000"/>
+			<RadioButton fx:id="SecThr" text="Brown" style="-fx-text-fill: #6e4200"/>
+			<RadioButton fx:id="SecFour" text="Deep Blue" style="-fx-text-fill: #1f497d"/>
+			<RadioButton fx:id="SecFive" text="light Blue" style="-fx-text-fill: #4f81bd"/>
+			<RadioButton fx:id="SecSix" text="Pale Red" style="-fx-text-fill: #c05046"/>
+			<RadioButton fx:id="SecSev" text="Pale Green" style="-fx-text-fill: #9abb59"/>
+			<RadioButton fx:id="SecEig" text="Light Purple" style="-fx-text-fill: #8064a2"/>
+			<RadioButton fx:id="SecNine" text="Azure" style="-fx-text-fill: #4babc6"/>
+			<RadioButton fx:id="SecTen" text="Orange" style="-fx-text-fill: #f79646"/>
+			</VBox>
+			<VBox>
+			<RadioButton fx:id="ThirdOne" text="Bright Red" style="-fx-text-fill: #ff0000"/>
+			<RadioButton fx:id="ThirdTwo" text="Black" style="-fx-text-fill: #000000"/>
+			<RadioButton fx:id="ThirdThr" text="Brown" style="-fx-text-fill: #6e4200"/>
+			<RadioButton fx:id="ThirdFour" text="Deep Blue" style="-fx-text-fill: #1f497d"/>
+			<RadioButton fx:id="ThirdFive" text="light Blue" style="-fx-text-fill: #4f81bd"/>
+			<RadioButton fx:id="ThirdSix" text="Pale Red" style="-fx-text-fill: #c05046"/>
+			<RadioButton fx:id="ThirdSev" text="Pale Green" style="-fx-text-fill: #9abb59"/>
+			<RadioButton fx:id="ThirdEig" text="Light Purple" style="-fx-text-fill: #8064a2"/>
+			<RadioButton fx:id="ThirdNine" text="Azure" style="-fx-text-fill: #4babc6"/>
+			<RadioButton fx:id="ThirdTen" text="Orange" style="-fx-text-fill: #f79646"/>
+			</VBox>
+			</HBox>
+			<HBox>
+			<Button fx:id="ResetButton" text="Reset" alignment="CENTER"/>
+			<VBox>
+			<HBox>
+			<Canvas fx:id="FirstCanvas" Height="16" Width="100"/>
+			<Label fx:id="FirstCanvasLabel"/>
+			</HBox>
+			<HBox>
+			<Canvas fx:id="SecondCanvas" Height="16" Width="100"/>
+			<Label fx:id="SecondCanvasLabel"/>
+			</HBox>
+			<HBox>
+			<Canvas fx:id="ThirdCanvas" Height="16" Width="100"/>
+			<Label fx:id="ThirdCanvasLabel"/>
+			</HBox>
+			</VBox>
+			</HBox>
+			</VBox>
+</TilePane>
